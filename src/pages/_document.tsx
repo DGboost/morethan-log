@@ -21,10 +21,10 @@ class MyDocument extends Document {
           {/* google search console */}
           {CONFIG.googleSearchConsole.enable === true && (
             <>
-              <meta
-                name="google-site-verification"
-                content={CONFIG.googleSearchConsole.config.siteVerification}
-              />
+              <meta 
+                name="google-site-verification" 
+                content="siHk4Q8wD6vu61OqZ8XvgPWW4EvjS-4uyHC7GaqqxLU" 
+                />
             </>
           )}
           {/* naver search advisor */}
