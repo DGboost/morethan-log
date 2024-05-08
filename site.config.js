@@ -55,7 +55,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: DGboost/morethan-log "",
+      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || ""
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
