@@ -30,10 +30,10 @@ class MyDocument extends Document {
           {/* naver search advisor */}
           {CONFIG.naverSearchAdvisor.enable === true && (
             <>
-              <meta
-                name="naver-site-verification"
-                content={CONFIG.naverSearchAdvisor.config.siteVerification}
-              />
+              <meta 
+                name="naver-site-verification" 
+                content="3e24bfe840bd65a78cb662748609fe05f1097bba" 
+                />
             </>
           )}
         </Head>
